@@ -5,7 +5,7 @@ import time
 class PullNotifs:
 
     def __init__(self):
-        self.git_client = github.Github("erezbarr", "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")
+        self.git_client = github.Github("erezbarr", "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")
         self.pulls = []
         self.pull_counts = {}
 
